@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .round{
+            /* padding: 200px; */
+            margin-left: 430px;
+            margin-bottom: 200px;
+            background-color: red;
+            border-radius: 300px;
+            height: 600px;
+            width: 650px;
+            background-image: url(./butterfly-logo.jpg);
+            background-size: cover;
+        }
+         .div{
+            margin-left: 300px;
+        } 
+        img{
+            height: 70px;
+            width: 100px;
+            border-radius: 150px;
+        } 
+
+        .one{
+            /* margin-bottom: 70px; */
+            position: relative;  
+            top: 20px;
+            left: -20px;
+            animation-name: egg;  
+            animation-duration: 4s;
+            animation-delay: 100ms;
+            animation-iteration-count:infinite ;
+        }
+        .two{
+            position: relative;
+            left: 125px;
+            top: 220px;
+            animation-name: hi;
+            animation-duration: 4s;
+            animation-delay: 200ms;
+            animation-iteration-count: infinite;
+        }
+        .three{
+            position: relative;
+            left: -120px;
+            top: 470px;
+        
+            animation-name: hello;
+            animation-duration: 4s;
+            animation-delay: 300ms;
+            animation-iteration-count: infinite;
+        }
+        .four{
+            position: relative;
+             left: -150px;
+            top: 415px;
+            animation-name: shiva;
+            animation-duration: 4s;
+            animation-delay: 400ms;
+            animation-iteration-count: infinite;
+        }
+        .five{
+            position: relative;
+             right: 390px;
+             top: 170px; 
+            animation-name: prasad;
+            animation-duration: 4s;
+            animation-delay: 500ms;
+            animation-iteration-count: infinite;
+        }   
+
+        @keyframes egg {
+            0% {left: 0px;top: 0px;}
+            20%{ left: 120px;top: 170px;}    
+        }
+        @keyframes hi {
+            25%{left: 30px;top: 400px;}
+        }
+        @keyframes hello {
+               25%{left: -250px;top: 470px;}
+        }
+        @keyframes  shiva{
+            25%{left: -287px;top: 230px;}
+        }
+        @keyframes prasad {
+            25%{top: -25px;right: 120px;}
+        }
+
+    </style>
+</head>
+<body>
+        <div class="round">
+            <div class="div">
+        <img src="./eggs.jpg" class="one">
+       <img src="./caterpilllar.jpg" class="two">
+       <img src="./Butterfly-Chrysalis.jpg" class="three">
+       <img src="./emerging butterfly.jpg" class="four">
+       <img src="./butterfly.jpg" class="five">
+            </div>
+        </div>
+</body>
+</html>
